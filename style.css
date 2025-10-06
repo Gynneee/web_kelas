@@ -77,6 +77,31 @@ footer a:hover {
     color: #FFFFFF;
 }
 
+.judul_kelas {
+    display: flex; 
+    align-items: center; 
+    gap: 30px;
+    padding: 20px;
+}
+
+
+.class_picture {
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 0 20px 100px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+}
+
+.Text_foto_kelas {
+    font-size: 35px;
+    font-family: 'Alan Sans', sans-serif;
+    text-align: center;
+    color: #2F4F4F;
+    margin-top: 10px;
+    font-weight: bold;
+}
 
 /* - With #
 
