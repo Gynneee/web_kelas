@@ -1,0 +1,130 @@
+/* --- Color Palette Reference --- */
+/* --alabaster (background): #F8F9FA;
+--calm-sea-blue (header): #A9C9D9;
+--deep-ocean-blue (footer/links): #3A506B;
+--bright-teal (link hover): #1C85A3;
+--dark-slate (text): #2F4F4F;
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #F8F9FA;
+    color: #2F4F4F;
+}
+
+header {
+    background-color: #A9C9D9;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    box-sizing: border-box;
+    border-bottom: 2px solid #EAEAEA;
+}
+
+main {
+    flex-grow: 1;
+    width: 100%;
+    padding-top: 85px;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+footer {
+    background-color: #3A506B;
+    color: #F8F9FA;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #3A506B;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1C85A3;
+}
+
+footer a {
+    color: #A9C9D9;
+}
+
+footer a:hover {
+    color: #FFFFFF;
+}
+
+
+/* - With #
+
+#97AE91, #366C87, #265277, #6CDDDB, #D9D9D9 */
+
+
+/* CSS HEX
+--cambridge-blue: #97AE91ff;
+--paynes-gray: #366C87ff;
+--yinmn-blue: #265277ff;
+--tiffany-blue: #6CDDDBff;
+--platinum: #D9D9D9ff;
+
+CSS HSL 
+--cambridge-blue: hsla(108, 15%, 63%, 1);
+--paynes-gray: hsla(200, 43%, 37%, 1);
+--yinmn-blue: hsla(207, 52%, 31%, 1);
+--tiffany-blue: hsla(179, 62%, 65%, 1);
+--platinum: hsla(0, 0%, 85%, 1);
+
+SCSS HEX 
+$cambridge-blue: #97AE91ff;
+$paynes-gray: #366C87ff;
+$yinmn-blue: #265277ff;
+$tiffany-blue: #6CDDDBff;
+$platinum: #D9D9D9ff;
+
+SCSS HSL
+$cambridge-blue: hsla(108, 15%, 63%, 1);
+$paynes-gray: hsla(200, 43%, 37%, 1);
+$yinmn-blue: hsla(207, 52%, 31%, 1);
+$tiffany-blue: hsla(179, 62%, 65%, 1);
+$platinum: hsla(0, 0%, 85%, 1);
+
+SCSS RGB 
+$cambridge-blue: rgba(151, 174, 145, 1);
+$paynes-gray: rgba(54, 108, 135, 1);
+$yinmn-blue: rgba(38, 82, 119, 1);
+$tiffany-blue: rgba(108, 221, 219, 1);
+$platinum: rgba(217, 217, 217, 1);
+
+SCSS Gradient 
+$gradient-top: linear-gradient(0deg, #97AE91ff, #366C87ff, #265277ff, #6CDDDBff, #D9D9D9ff);
+$gradient-right: linear-gradient(90deg, #97AE91ff, #366C87ff, #265277ff, #6CDDDBff, #D9D9D9ff);
+$gradient-bottom: linear-gradient(180deg, #97AE91ff, #366C87ff, #265277ff, #6CDDDBff, #D9D9D9ff);
+$gradient-left: linear-gradient(270deg, #97AE91ff, #366C87ff, #265277ff, #6CDDDBff, #D9D9D9ff);
+$gradient-top-right: linear-gradient(45deg, #97AE91ff, #366C87ff, #265277ff, #6CDDDBff, #D9D9D9ff);
+$gradient-bottom-right: linear-gradient(135deg, #97AE91ff, #366C87ff, #265277ff, #6CDDDBff, #D9D9D9ff);
+$gradient-top-left: linear-gradient(225deg, #97AE91ff, #366C87ff, #265277ff, #6CDDDBff, #D9D9D9ff);
+$gradient-bottom-left: linear-gradient(315deg, #97AE91ff, #366C87ff, #265277ff, #6CDDDBff, #D9D9D9ff);
+$gradient-radial: radial-gradient(#97AE91ff, #366C87ff, #265277ff, #6CDDDBff, #D9D9D9ff); */
